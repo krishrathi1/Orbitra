@@ -1,0 +1,20 @@
+function o(n) {
+  let r;
+  try {
+    r = new URL(n);
+  } catch {
+    return null;
+  }
+  if (r.protocol !== "orbitra:" || r.username || r.password || r.port)
+    return null;
+  const t = (
+      r.hostname === "-"
+        ? r.pathname.split("/")
+        : [r.hostname, ...r.pathname.split("/")]
+    )
+      .map((a) => a.trim())
+      .filter(Boolean),
+    e = t[0];
+  return e ? { routeRoot: e, segments: t } : null;
+}
+export { o as p };

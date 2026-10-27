@@ -1,0 +1,36 @@
+import {
+  l as p,
+  a1 as n,
+  h as m,
+  i as g,
+  at as d,
+  c,
+  o as f,
+  g as l,
+  e as h,
+} from "../chunks/BY3kRY6U.js";
+import { p as e } from "../chunks/DxrGW2WR.js";
+import { M as u } from "../chunks/BV7FuYJY.js";
+function k(r, s) {
+  (p(s, !1), n());
+  var a = m(),
+    t = g(a);
+  (d(
+    t,
+    () => e.params.recordingId,
+    (o) => {
+      {
+        let i = h(() => e.params.recordingId ?? "");
+        u(o, {
+          basePath: "/workspace/meetings",
+          get recordingId() {
+            return l(i);
+          },
+        });
+      }
+    },
+  ),
+    c(r, a),
+    f());
+}
+export { k as component };

@@ -1,0 +1,10 @@
+# Keep generated dependencies and local packaged runtime out of Git
+**/node_modules/
+runtime-orbitra/
+
+# Local configuration and generated files
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
