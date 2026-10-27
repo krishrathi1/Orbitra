@@ -1,10 +1,12 @@
 # Keep generated dependencies and local packaged runtime out of Git
 **/node_modules/
 runtime-orbitra/
+supabase/.temp/
 
 # Local configuration and generated files
 .env
 .env.*
+!.env.example
 *.log
 .DS_Store
 Thumbs.db
