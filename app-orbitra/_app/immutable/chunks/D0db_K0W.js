@@ -213,8 +213,8 @@ class g {
   openFeedbackPage() {
     const s = m.user?.id,
       e = s
-        ? `https://orbitrabrowser.com/feedback?userId=${encodeURIComponent(s)}`
-        : "https://orbitrabrowser.com/feedback";
+        ? `https://strawberrybrowser.com/feedback?userId=${encodeURIComponent(s)}`
+        : "https://strawberrybrowser.com/feedback";
     a.invoke("tab:request-create", {
       url: e,
       tabType: "website",

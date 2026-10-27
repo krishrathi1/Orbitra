@@ -4,7 +4,7 @@
   "description": "Orbitra Browser",
   "main": "./out/main/index.js",
   "author": "Orbitra Browser Inc.",
-  "homepage": "https://orbitrabrowser.com",
+  "homepage": "https://strawberrybrowser.com",
   "exports": {
     ".": "./out/main/index.js",
     "./spreadsheet/locale": "./src/shared/spreadsheet/locale.ts",

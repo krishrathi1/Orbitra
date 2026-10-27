@@ -2960,9 +2960,9 @@ function ta(G, a) {
   async function v() {
     E(g, null);
     try {
-      await Ve.openExternalUrl("https://orbitrabrowser.com/contact");
+      await Ve.openExternalUrl("https://strawberrybrowser.com/contact");
     } catch {
-      E(g, "You can reach us at orbitrabrowser.com/contact.");
+      E(g, "You can reach us at strawberrybrowser.com/contact.");
     }
   }
   var y = ea(),

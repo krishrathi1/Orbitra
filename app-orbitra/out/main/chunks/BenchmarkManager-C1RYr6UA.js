@@ -2498,7 +2498,7 @@ class $e extends h.BaseManager {
     } catch {}
     console.log(`[BenchmarkManager] Downloading ref file: ${e}`);
     const n =
-      !e.includes("orbitrabrowser.com") && !e.includes("localhost")
+      !e.includes("strawberrybrowser.com") && !e.includes("localhost")
         ? await fetch(e)
         : await this.fetchWithRetry(e);
     if (!n.ok) throw new Error(`Failed to download file: ${n.statusText}`);
@@ -2524,7 +2524,7 @@ class $e extends h.BaseManager {
       } catch {
         console.log(`[BenchmarkManager] Downloading: ${e}`);
         const d =
-          !e.includes("orbitrabrowser.com") && !e.includes("localhost")
+          !e.includes("strawberrybrowser.com") && !e.includes("localhost")
             ? await fetch(e)
             : await this.fetchWithRetry(e);
         if (!d.ok) throw new Error(`Failed to download file: ${d.statusText}`);

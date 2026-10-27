@@ -964,16 +964,16 @@ var Zr = $("<!> <!> <!> <!> <!> <!> <!> <!> <!>", 1);
 function Vr(n, t) {
   te(t, !1);
   async function o() {
-    await C.addTopLevelTab("https://orbitrabrowser.com/updates/latest");
+    await C.addTopLevelTab("https://strawberrybrowser.com/updates/latest");
   }
   async function r() {
-    await C.addTopLevelTab("https://orbitrabrowser.com/feedback");
+    await C.addTopLevelTab("https://strawberrybrowser.com/feedback");
   }
   async function d() {
     await C.addTopLevelTab("https://discord.gg/cuTN25qWwA");
   }
   async function i() {
-    await C.addTopLevelTab("https://orbitrabrowser.com/join-slack");
+    await C.addTopLevelTab("https://strawberrybrowser.com/join-slack");
   }
   async function l() {
     await C.addTopLevelTab("orbitra://settings/about");

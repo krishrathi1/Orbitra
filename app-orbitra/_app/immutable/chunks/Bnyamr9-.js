@@ -170,8 +170,8 @@ function Qe(t, e) {
   const o = new URL(t);
   if (
     (o.protocol === "http:" || o.protocol === "https:") &&
-    (o.hostname === "orbitrabrowser.com" ||
-      o.hostname === "www.orbitrabrowser.com") &&
+    (o.hostname === "strawberrybrowser.com" ||
+      o.hostname === "www.strawberrybrowser.com") &&
     (o.pathname === "/favicon.ico" || o.pathname === "/favicon.svg")
   )
     return { src: "/favicon.svg", pageUrl: "" };

@@ -1574,7 +1574,7 @@ function Ri(Ve, n) {
     re = d(() => e(t)?.metaData?.invite ?? { kind: "loading" }),
     Ie = d(() =>
       e(re).kind === "link"
-        ? `https://orbitrabrowser.com/download?inviteCode=${e(re).code}`
+        ? `https://strawberrybrowser.com/download?inviteCode=${e(re).code}`
         : "",
     ),
     Pe = d(() => ot(e(re))),

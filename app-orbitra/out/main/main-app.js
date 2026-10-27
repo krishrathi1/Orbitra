@@ -3094,7 +3094,7 @@ const Ou = typeof process < "u" ? process.env : void 0;
 function Jf(n) {
   const t = {
     VITE_API_BASE_DOMAIN: void 0,
-    VITE_API_URL: "https://v1-0-3.api.orbitrabrowser.com",
+    VITE_API_URL: "https://v1-0-3.api.strawberrybrowser.com",
     VITE_DEV_API_URL: "http://localhost:3000/",
     VITE_DEV_WEB_URL: void 0,
     VITE_VERCEL_PROTECTION_BYPASS: "",
@@ -3107,7 +3107,7 @@ function Xee(n) {
   if (n.nodeEnv === "development") return n.viteDevApiUrl ?? "";
   if (n.viteForceDevApi === "true" && n.viteDevApiUrl) return n.viteDevApiUrl;
   if (n.viteApiUrl) return n.viteApiUrl;
-  const e = n.viteApiBaseDomain ?? "orbitrabrowser.com",
+  const e = n.viteApiBaseDomain ?? "strawberrybrowser.com",
     t = `v${n.packageVersion.replaceAll(".", "-")}`;
   return Tc(n.packageVersion)
     ? `https://${t}.staging-api.${e}`
@@ -3125,7 +3125,7 @@ function Jee(n, e) {
     )
       return t.slice(1).join(".");
   } catch {}
-  return "orbitrabrowser.com";
+  return "strawberrybrowser.com";
 }
 function Qee(n) {
   return n.devWebUrl
@@ -3134,7 +3134,7 @@ function Qee(n) {
       ? n.viteDevWebUrl
       : n.nodeEnv === "development"
         ? "http://localhost:3001"
-        : "https://orbitrabrowser.com";
+        : "https://strawberrybrowser.com";
 }
 function Yke() {
   return Xee({
@@ -41718,7 +41718,7 @@ function nae(n) {
 function lB() {
   try {
     const n = T.app
-      .getApplicationNameForProtocol("https://orbitrabrowser.com")
+      .getApplicationNameForProtocol("https://strawberrybrowser.com")
       .replace(/\.app$/i, "")
       .trim();
     return !n || n.length > 40 ? void 0 : n;
@@ -42836,7 +42836,7 @@ const P4e = l.pipe(
         return;
       }
       (r.protocol !== "https:" ||
-        r.origin !== "https://orbitrabrowser.com" ||
+        r.origin !== "https://strawberrybrowser.com" ||
         r.username ||
         r.password ||
         r.pathname !== t ||
@@ -43029,43 +43029,43 @@ const U4e = [
       key: "business_terms",
       title: "Business Terms of Service",
       version: "v2",
-      url: "https://orbitrabrowser.com/legal/business-terms/v2",
+      url: "https://strawberrybrowser.com/legal/business-terms/v2",
     },
     {
       key: "privacy_policy",
       title: "Privacy Policy",
       version: "v2",
-      url: "https://orbitrabrowser.com/legal/privacy-policy/v2",
+      url: "https://strawberrybrowser.com/legal/privacy-policy/v2",
     },
     {
       key: "acceptable_use_policy",
       title: "Acceptable Use Policy",
       version: "v1",
-      url: "https://orbitrabrowser.com/legal/aup/v1",
+      url: "https://strawberrybrowser.com/legal/aup/v1",
     },
     {
       key: "privacy_policy",
       title: "Privacy Policy",
       version: "v3",
-      url: "https://orbitrabrowser.com/legal/privacy-policy/v3",
+      url: "https://strawberrybrowser.com/legal/privacy-policy/v3",
     },
     {
       key: "business_terms",
       title: "Business Terms of Service",
       version: "v2.1",
-      url: "https://orbitrabrowser.com/legal/business-terms/v2.1",
+      url: "https://strawberrybrowser.com/legal/business-terms/v2.1",
     },
     {
       key: "privacy_policy",
       title: "Privacy Policy",
       version: "v3.1",
-      url: "https://orbitrabrowser.com/legal/privacy-policy/v3.1",
+      url: "https://strawberrybrowser.com/legal/privacy-policy/v3.1",
     },
     {
       key: "privacy_policy",
       title: "Privacy Policy",
       version: "v3.2",
-      url: "https://orbitrabrowser.com/legal/privacy-policy/v3.2",
+      url: "https://strawberrybrowser.com/legal/privacy-policy/v3.2",
     },
   ],
   W4e = [
@@ -57184,8 +57184,8 @@ function D6e(n, e) {
   return e
     ? "http://localhost:5001"
     : Tc(n)
-      ? "https://orbitrabucket.dev"
-      : "https://orbitrabucket.com";
+      ? "https://strawberrybucket.dev"
+      : "https://strawberrybucket.com";
 }
 function O6e(n, e) {
   return n.replace(/\/+$/g, "");
@@ -57354,7 +57354,7 @@ function K6e({
   updateNoticeDismissed: r,
 }) {
   const s = e && !r,
-    i = s ? `https://orbitrabrowser.com/release-notes/${n}` : null;
+    i = s ? `https://strawberrybrowser.com/release-notes/${n}` : null;
   return { showNewVersionState: s, releaseNotes: i, isUpdateReadyToInstall: t };
 }
 function Y6e(n) {
@@ -57816,7 +57816,7 @@ class d5e extends Zt {
     const e = T.app.getVersion(),
       t = vr.is.dev,
       r = D6e(e, t);
-    r === "https://orbitrabucket.dev" &&
+    r === "https://strawberrybucket.dev" &&
       g.info(
         `[UpdateManager] Development build detected (version: ${e}) - using prerelease update server`,
       );
@@ -57866,7 +57866,7 @@ class d5e extends Zt {
   getForcedVersionsUrl() {
     return vr.is.dev
       ? null
-      : "https://orbitrabrowser.com/forced-update-versions";
+      : "https://strawberrybrowser.com/forced-update-versions";
   }
   async fetchVersionList(e, t) {
     try {
@@ -57913,7 +57913,7 @@ class d5e extends Zt {
     t && (this.forcedVersions = t.versions);
   }
   getSunsetVersionsUrl() {
-    return vr.is.dev ? null : "https://orbitrabrowser.com/sunset-versions";
+    return vr.is.dev ? null : "https://strawberrybrowser.com/sunset-versions";
   }
   async fetchSunsetVersions() {
     if (process.env.ORBITRA_DEBUG_SUNSET === "1") {
@@ -114989,12 +114989,12 @@ const OMt = {
       authMethod: "oauth",
       hostedOAuthClient: {
         clientMetadataUrl:
-          "https://orbitrabrowser.com/.well-known/lovable-mcp-client.json",
+          "https://strawberrybrowser.com/.well-known/lovable-mcp-client.json",
         redirectUri:
-          "https://orbitrabrowser.com/api/oauth/lovable-mcp/callback",
+          "https://strawberrybrowser.com/api/oauth/lovable-mcp/callback",
       },
       legacyOAuthClientId:
-        "https://orbitrabrowser.com/.well-known/lovable-mcp-client.json",
+        "https://strawberrybrowser.com/.well-known/lovable-mcp-client.json",
       iconUrl: "/icons/brands/lovable.svg",
       iconDomain: "lovable.dev",
     },
@@ -120106,8 +120106,8 @@ function _Ot(n, e) {
   const t = new URL(n);
   if (
     (t.protocol === "http:" || t.protocol === "https:") &&
-    (t.hostname === "orbitrabrowser.com" ||
-      t.hostname === "www.orbitrabrowser.com") &&
+    (t.hostname === "strawberrybrowser.com" ||
+      t.hostname === "www.strawberrybrowser.com") &&
     (t.pathname === "/favicon.ico" || t.pathname === "/favicon.svg")
   )
     return { src: "/favicon.svg", pageUrl: "" };
@@ -151872,7 +151872,7 @@ function es(n, e, t, r) {
     u = n === "poppler" ? ["pdftotext"] : [],
     h = `artifact-runtime/components/${n}/native/conda/${i ? "Library/bin" : "bin"}`;
   return {
-    url: `https://orbitrabucket.dev/artifact-runtime/v${s}/${e}/${c}.${a}`,
+    url: `https://strawberrybucket.dev/artifact-runtime/v${s}/${e}/${c}.${a}`,
     sha256: t,
     archive: {
       format: o,
@@ -208161,9 +208161,9 @@ const pu = {
       "Sandbox repair needs your permission. Try again and choose Yes when Windows asks.",
     bootError: {
       notAvailable:
-        "The companion's sandbox isn't available. Try restarting the browser. If the error persists, reach out to hello@orbitrabrowser.com",
+        "The companion's sandbox isn't available. Try restarting the browser. If the error persists, reach out to hello@strawberrybrowser.com",
       downloadFailed:
-        "Couldn't download the sandbox helper. Check your internet connection and try again. If the error persists, reach out to hello@orbitrabrowser.com",
+        "Couldn't download the sandbox helper. Check your internet connection and try again. If the error persists, reach out to hello@strawberrybrowser.com",
       diskFull:
         "Your computer is out of disk space, so the sandbox couldn't be set up. Free up some space and try again.",
       unexpectedStartupError:
@@ -208172,7 +208172,7 @@ const pu = {
         `This Mac is running macOS ${n}, but local execution needs macOS 13 (Ventura) or newer. Update macOS from System Settings -> General -> Software Update to use local execution.`,
     },
     unknown:
-      "The companion's sandbox isn't available right now. Try quitting and reopening Orbitra. If the error persists, reach out to hello@orbitrabrowser.com",
+      "The companion's sandbox isn't available right now. Try quitting and reopening Orbitra. If the error persists, reach out to hello@strawberrybrowser.com",
   },
   eSe = "sandbox";
 function tSe(n) {

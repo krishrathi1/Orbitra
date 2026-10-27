@@ -146,8 +146,8 @@ function ya(Ne, e) {
     je("hint_feedback_clicked", { hint_id: e.id }, "Hint.svelte");
     const f = zt.user?.id,
       p = f
-        ? `https://orbitrabrowser.com/feedback?userId=${encodeURIComponent(f)}`
-        : "https://orbitrabrowser.com/feedback";
+        ? `https://strawberrybrowser.com/feedback?userId=${encodeURIComponent(f)}`
+        : "https://strawberrybrowser.com/feedback";
     (Ht.invoke("tab:request-create", {
       url: p,
       tabType: "website",

@@ -10,7 +10,7 @@ const n = typeof process < "u" ? c : void 0;
 function t(e) {
   const r = {
     VITE_API_BASE_DOMAIN: void 0,
-    VITE_API_URL: "https://v1-0-3.api.orbitrabrowser.com",
+    VITE_API_URL: "https://v1-0-3.api.strawberrybrowser.com",
     VITE_DEV_API_URL: "http://localhost:3000/",
     VITE_DEV_WEB_URL: "",
     VITE_VERCEL_PROTECTION_BYPASS: "",
@@ -22,7 +22,7 @@ function v(e) {
   if (e.devApiUrl) return e.devApiUrl;
   if (e.nodeEnv === "development") return e.viteDevApiUrl ?? "";
   if (e.viteApiUrl) return e.viteApiUrl;
-  const i = e.viteApiBaseDomain ?? "orbitrabrowser.com",
+  const i = e.viteApiBaseDomain ?? "strawberrybrowser.com",
     r = `v${e.packageVersion.replaceAll(".", "-")}`;
   return l(e.packageVersion)
     ? `https://${r}.staging-api.${i}`
@@ -40,7 +40,7 @@ function _(e, i) {
     )
       return r.slice(1).join(".");
   } catch {}
-  return "orbitrabrowser.com";
+  return "strawberrybrowser.com";
 }
 function E(e) {
   return e.devWebUrl
@@ -49,7 +49,7 @@ function E(e) {
       ? e.viteDevWebUrl
       : e.nodeEnv === "development"
         ? "http://localhost:3001"
-        : "https://orbitrabrowser.com";
+        : "https://strawberrybrowser.com";
 }
 function p() {
   return v({

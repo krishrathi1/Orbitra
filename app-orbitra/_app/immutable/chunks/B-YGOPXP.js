@@ -673,7 +673,7 @@ class U {
     }
   }
   getInviteLink(e) {
-    return `https://orbitrabrowser.com/team/invite/${e.token}`;
+    return `https://strawberrybrowser.com/team/invite/${e.token}`;
   }
 }
 const L = w("teamStore", () => new U());

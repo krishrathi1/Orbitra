@@ -403,7 +403,7 @@ function Ka(B, D) {
     await l.retryBoot();
   }
   function U() {
-    window.open("https://orbitrabrowser.com/bug-report", "_blank");
+    window.open("https://strawberrybrowser.com/bug-report", "_blank");
   }
   var R = y(),
     L = p(R);

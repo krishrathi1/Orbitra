@@ -162,7 +162,7 @@ const e = {
   },
   support_console_send_reply: {
     description:
-      "Send a reply on the inbox item via its source channel (Discord/Slack/Email/Form). Customer-facing — requires user confirmation. Email sends use the configured Gmail support address (typically support@orbitrabrowser.com); set SUPPORT_AGENT_FROM_EMAIL on api-v2 to override.",
+      "Send a reply on the inbox item via its source channel (Discord/Slack/Email/Form). Customer-facing — requires user confirmation. Email sends use the configured Gmail support address (typically support@strawberrybrowser.com); set SUPPORT_AGENT_FROM_EMAIL on api-v2 to override.",
     inputJsonSchema: `{"type":"object","properties":{"inboxItemId":{"type":"integer","minimum":-9007199254740991,"maximum":9007199254740991},"draft":{"type":"string","minLength":1,"description":"Reply text. Construct it yourself — do not look for or use an existing drafted_response on the item; those are stale or AI-generated and should be ignored."},"expectedUpdatedAt":{"type":"string","description":"ISO timestamp from the item's updated_at when you last read it via support_console_inbox_get. Server returns 409 item_changed if the item moved on since."}},"required":["inboxItemId","draft","expectedUpdatedAt"]}`,
     outputJsonSchema:
       '{"type":"object","properties":{"ok":{"const":true},"sent_at":{"type":"string"}},"required":["ok","sent_at"]}',

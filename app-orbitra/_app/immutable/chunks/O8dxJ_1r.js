@@ -152,7 +152,7 @@ const y = [
             label: "Credit usage",
             kind: "informational",
             infoText: null,
-            href: "https://docs.orbitrabrowser.com/ai/credits-usage",
+            href: "https://docs.strawberrybrowser.com/ai/credits-usage",
           },
           {
             id: "learn-companions",
@@ -160,7 +160,7 @@ const y = [
             label: "Companions",
             kind: "informational",
             infoText: null,
-            href: "https://docs.orbitrabrowser.com/ai/companions",
+            href: "https://docs.strawberrybrowser.com/ai/companions",
           },
           {
             id: "learn-team-collaboration",
@@ -168,7 +168,7 @@ const y = [
             label: "Team collaboration",
             kind: "informational",
             infoText: null,
-            href: "https://docs.orbitrabrowser.com/billing/teams",
+            href: "https://docs.strawberrybrowser.com/billing/teams",
           },
         ],
       },

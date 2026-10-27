@@ -45,7 +45,7 @@ var F = w(
   );
 function Z(l, i) {
   C(i, !0);
-  const c = "support@orbitrabrowser.com";
+  const c = "support@strawberrybrowser.com";
   function o(f) {
     switch (f) {
       case "free_usage_abuse":
@@ -120,7 +120,7 @@ function Z(l, i) {
             n = P(s);
           A(n, { "aria-hidden": "true" });
           var b = a(n);
-          ((b.nodeValue = " support@orbitrabrowser.com"), u(r, s));
+          ((b.nodeValue = " support@strawberrybrowser.com"), u(r, s));
         },
         $$slots: { default: !0 },
       }),

@@ -2327,7 +2327,7 @@ const nn = {
       icon: "alert-circle",
       title: "Sandbox unavailable",
       subtitle:
-        "Try restarting the browser. If the error persists, reach out to hello@orbitrabrowser.com",
+        "Try restarting the browser. If the error persists, reach out to hello@strawberrybrowser.com",
       actionType: "retry",
       colorScheme: "error",
     },
@@ -2456,7 +2456,7 @@ const nn = {
       icon: "alert-circle",
       title: "We could not prepare your next credit period",
       subtitle:
-        "Your subscription is active and this is our problem to fix. Please reach out to hello@orbitrabrowser.com.",
+        "Your subscription is active and this is our problem to fix. Please reach out to hello@strawberrybrowser.com.",
       actionType: "none",
       colorScheme: "error",
     },

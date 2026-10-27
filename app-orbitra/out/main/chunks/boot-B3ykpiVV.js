@@ -5340,8 +5340,8 @@ function dh(n) {
 function uh(n, e) {
   const t = n.toLowerCase();
   return !!(
-    t === "orbitrabrowser.com" ||
-    t.endsWith(".orbitrabrowser.com") ||
+    t === "strawberrybrowser.com" ||
+    t.endsWith(".strawberrybrowser.com") ||
     (e.allowLocalhost && (t === "localhost" || t === "127.0.0.1"))
   );
 }

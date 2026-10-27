@@ -127,8 +127,8 @@ function X(s) {
   }
   return (
     (e.protocol === "https:" || e.protocol === "http:") &&
-    (e.hostname === "orbitrabrowser.com" ||
-      e.hostname === "www.orbitrabrowser.com") &&
+    (e.hostname === "strawberrybrowser.com" ||
+      e.hostname === "www.strawberrybrowser.com") &&
     (e.pathname === "/auth/desktop/complete" ||
       e.pathname === "/auth/desktop/complete/")
   );

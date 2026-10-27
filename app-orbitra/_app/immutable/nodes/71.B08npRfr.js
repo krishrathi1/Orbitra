@@ -1449,7 +1449,7 @@ const dt = {
     account_too_old: "Only available for new accounts",
     error: "Oops, something went wrong",
   },
-  kr = "https://orbitrabrowser.com";
+  kr = "https://strawberrybrowser.com";
 function Sr(ie) {
   const d = new URL("/download", kr);
   return (d.searchParams.set("inviteCode", ie), d.toString());

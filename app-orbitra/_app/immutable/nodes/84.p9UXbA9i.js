@@ -104,7 +104,7 @@ import { P as Ca } from "../chunks/B3t9w4Ke.js";
 import { p as ot } from "../chunks/CuLy-C4K.js";
 import { t as lt } from "../chunks/DweqhE2a.js";
 import { t as Aa } from "../chunks/B-YGOPXP.js";
-const Sa = "https://docs.orbitrabrowser.com/ai/credits-usage";
+const Sa = "https://docs.strawberrybrowser.com/ai/credits-usage";
 function Ia(E) {
   Ut(E, { url: Sa, testId: "credits-open-docs" });
 }

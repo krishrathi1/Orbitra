@@ -21,9 +21,9 @@ const n = {
     "Sandbox repair needs your permission. Try again and choose Yes when Windows asks.",
   bootError: {
     notAvailable:
-      "The companion's sandbox isn't available. Try restarting the browser. If the error persists, reach out to hello@orbitrabrowser.com",
+      "The companion's sandbox isn't available. Try restarting the browser. If the error persists, reach out to hello@strawberrybrowser.com",
     downloadFailed:
-      "Couldn't download the sandbox helper. Check your internet connection and try again. If the error persists, reach out to hello@orbitrabrowser.com",
+      "Couldn't download the sandbox helper. Check your internet connection and try again. If the error persists, reach out to hello@strawberrybrowser.com",
     diskFull:
       "Your computer is out of disk space, so the sandbox couldn't be set up. Free up some space and try again.",
     unexpectedStartupError:
@@ -32,7 +32,7 @@ const n = {
       `This Mac is running macOS ${o}, but local execution needs macOS 13 (Ventura) or newer. Update macOS from System Settings -> General -> Software Update to use local execution.`,
   },
   unknown:
-    "The companion's sandbox isn't available right now. Try quitting and reopening Orbitra. If the error persists, reach out to hello@orbitrabrowser.com",
+    "The companion's sandbox isn't available right now. Try quitting and reopening Orbitra. If the error persists, reach out to hello@strawberrybrowser.com",
 };
 class d {
   #e = r(null);

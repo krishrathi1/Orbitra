@@ -73,12 +73,12 @@ const r = {
       authMethod: "oauth",
       hostedOAuthClient: {
         clientMetadataUrl:
-          "https://orbitrabrowser.com/.well-known/lovable-mcp-client.json",
+          "https://strawberrybrowser.com/.well-known/lovable-mcp-client.json",
         redirectUri:
-          "https://orbitrabrowser.com/api/oauth/lovable-mcp/callback",
+          "https://strawberrybrowser.com/api/oauth/lovable-mcp/callback",
       },
       legacyOAuthClientId:
-        "https://orbitrabrowser.com/.well-known/lovable-mcp-client.json",
+        "https://strawberrybrowser.com/.well-known/lovable-mcp-client.json",
       iconUrl: "/icons/brands/lovable.svg",
       iconDomain: "lovable.dev",
     },

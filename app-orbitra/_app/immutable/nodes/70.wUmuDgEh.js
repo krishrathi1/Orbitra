@@ -43,7 +43,7 @@ var dr = f("<!> Check for Updates", 1),
   ),
   ur = f("<!> <!> <!>", 1),
   cr = f(
-    '<div class="flex gap-2"><a href="https://orbitrabrowser.com/legal/terms-and-conditions" class="text-accent-foreground cursor-pointer underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> <span>|</span> <a href="https://orbitrabrowser.com/legal/privacy-policy" class="text-accent-foreground cursor-pointer underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a></div>',
+    '<div class="flex gap-2"><a href="https://strawberrybrowser.com/legal/terms-and-conditions" class="text-accent-foreground cursor-pointer underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> <span>|</span> <a href="https://strawberrybrowser.com/legal/privacy-policy" class="text-accent-foreground cursor-pointer underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a></div>',
   ),
   $r = f('<div class="max-w-[50rem]"><!> <!> <!></div>');
 function Gr(T, U) {
@@ -133,7 +133,7 @@ function Gr(T, U) {
           });
           var g = d(v, 2);
           _(g, {
-            onclick: () => V("https://orbitrabrowser.com"),
+            onclick: () => V("https://strawberrybrowser.com"),
             right: (r) => {
               lr(r, { class: "size-4" });
             },

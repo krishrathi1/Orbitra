@@ -1023,7 +1023,7 @@ function Wt(q, t) {
       (a(b),
         X("click", L, () =>
           Q.openExternalUrl(
-            "https://orbitrabrowser.com/auth/forgot-password",
+            "https://strawberrybrowser.com/auth/forgot-password",
           ),
         ),
         l(i, b));
